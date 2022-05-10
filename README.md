@@ -1,6 +1,7 @@
-# Archway Network Starter Pack
+# Archway Chat dApp
+## Smart contract part (1 of 2).
 
-This is a template to build smart contracts in Rust to run inside a
+This is an example smart contract in Rust to run inside a
 [Cosmos SDK](https://github.com/cosmos/cosmos-sdk) module on all chains that enable it.
 To understand the framework better, please read the overview in the
 [archway repo](https://github.com/archway-network/archway/blob/main/README.md),
