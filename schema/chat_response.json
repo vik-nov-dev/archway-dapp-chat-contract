@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ChatResponse",
+  "type": "object",
+  "required": [
+    "messages"
+  ],
+  "properties": {
+    "messages": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/ChatMessage"
+      }
+    }
+  },
+  "definitions": {
+    "ChatMessage": {
+      "type": "object",
+      "required": [
+        "address",
+        "message",
+        "moniker"
+      ],
+      "properties": {
+        "address": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        },
+        "moniker": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ExecuteMsg",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": [
+        "post_message"
+      ],
+      "properties": {
+        "post_message": {
+          "type": "object",
+          "required": [
+            "message",
+            "moniker"
+          ],
+          "properties": {
+            "message": {
+              "type": "string"
+            },
+            "moniker": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  ]
+}
