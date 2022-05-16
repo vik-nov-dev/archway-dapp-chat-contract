@@ -1,6 +1,8 @@
 # Archway Chat dApp
 ## Smart contract part (1 of 2).
 
+React front-end (part 2 of 2) can be found [here](https://github.com/vik-nov-dev/archway-dapp-chat-frontend).
+
 This is an example smart contract in Rust to run inside a
 [Cosmos SDK](https://github.com/cosmos/cosmos-sdk) module on all chains that enable it.
 To understand the framework better, please read the overview in the
